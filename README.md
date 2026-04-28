@@ -19,7 +19,6 @@ API desenvolvida em Node.js com fluxo completo de pedidos:
 * JWT (autenticação)
 * Swagger (OpenAPI 3.0)
 * Cypress (testes E2E/API)
-* Jest + jest-openapi (contract testing)
 
 ---
 
@@ -52,7 +51,7 @@ npm install
 # ▶️ Rodando a aplicação
 
 ```bash
-node src/app.js
+node server.js
 ```
 
 API disponível em:
@@ -275,12 +274,11 @@ getOrderById(parseInt(req.params.id))
 
 # 👨‍💻 Autor
 
-Projeto criado para prática de:
+Projeto criado por Antonio G. Martins para desenvolvimento do portfolio pessoal no curso do Julio de Lima
 
-* QA Automation
-* Testes de API
-* Contract Testing
-* Arquitetura de testes
+Foram desenvolvidos:
+* Api de um E-commerce
+* Automação de Testes com a cobertura de Contract Testing
 
 ---
 
