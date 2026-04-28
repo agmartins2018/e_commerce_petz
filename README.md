@@ -22,6 +22,8 @@ API desenvolvida em Node.js com fluxo completo de pedidos:
 
 ---
 
+<img width="669" height="623" alt="image" src="https://github.com/user-attachments/assets/46464c9a-264b-4f44-bf17-3f71e50251f5" />
+
 # 📁 Estrutura do Projeto
 
 ```
@@ -37,6 +39,8 @@ src/
 cypress/
 tests/
 ```
+
+
 
 ---
 
