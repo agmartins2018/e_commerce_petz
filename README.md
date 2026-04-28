@@ -177,44 +177,6 @@ Rodar:
 npm test
 ```
 
----
-
-# 🧪 Exemplo de Contract Test
-
-```javascript
-const request = require("supertest")
-const app = require("../src/app")
-const jestOpenAPI = require("jest-openapi").default
-const swaggerSpec = require("../src/config/swagger")
-
-jestOpenAPI(swaggerSpec)
-
-describe("Contract Test - Orders", () => {
-
-  let token
-
-  beforeAll(async () => {
-    const res = await request(app)
-      .post("/auth/login")
-      .send({ username: "admin", password: "123" })
-
-    token = res.body.token
-  })
-
-  test("POST /orders deve seguir o contrato", async () => {
-    const res = await request(app)
-      .post("/orders")
-      .set("Authorization", `Bearer ${token}`)
-      .send({
-        amount: 100,
-        description: "Teste"
-      })
-
-    expect(res).toSatisfyApiSpec()
-  })
-
-})
-```
 
 ---
 
