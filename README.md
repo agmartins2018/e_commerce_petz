@@ -1,4 +1,4 @@
-# 🛒 E-commerce API - Orders, Payments e Refunds
+# 🛒 E-commerce API - Pedidos, Pagamentos e Reembolso
 
 API desenvolvida em Node.js com fluxo completo de pedidos:
 
@@ -9,7 +9,7 @@ API desenvolvida em Node.js com fluxo completo de pedidos:
 * 💰 Reembolso
 * 🔐 Autenticação via JWT
 * 📄 Documentação com Swagger
-* 🧪 Testes automatizados (Cypress + Contract Test com Jest)
+* 🧪 Testes automatizados (Cypress + Contract Test)
 
 ---
 
@@ -164,19 +164,6 @@ Testa:
 * Checkout
 * Pagamento
 * Cancelamento
-
----
-
-## 🧾 Contract Test (Jest + OpenAPI)
-
-Valida se a API está aderente ao Swagger.
-
-Rodar:
-
-```bash
-npm test
-```
-
 
 ---
 
