@@ -27,21 +27,7 @@ API desenvolvida em Node.js com fluxo completo de pedidos:
 
 # 📁 Estrutura do Projeto
 
-```
-src/
- ├── controllers/
- ├── routes/
- ├── services/
- ├── db/
- ├── config/
- ├── middleware/
- ├── app.js
-
-cypress/
-tests/
-```
-
-
+<img width="1059" height="315" alt="image" src="https://github.com/user-attachments/assets/0d43a4ad-9956-414e-af0c-612138c80958" />
 
 ---
 
@@ -160,6 +146,7 @@ Rodar:
 
 ```bash
 npx cypress open
+npx cypress run
 ```
 
 Testa:
@@ -170,6 +157,17 @@ Testa:
 * Pagamento
 * Cancelamento
 
+## Performance (k6 / API)
+
+Rodar:
+
+```bash
+k6 run k6/orders.test.js
+k6 run --out web-dashboard=export=Relatorio_performance.html orders.test.js
+```
+
+Testa:
+* Orders
 ---
 
 # ⚠️ Problemas comuns resolvidos
@@ -235,7 +233,3 @@ Foram desenvolvidos:
 * Automação de Testes com a cobertura de Contract Testing
 
 ---
-
-# ⭐ Se esse projeto te ajudou
-
-Deixe uma estrela no repositório 🚀
