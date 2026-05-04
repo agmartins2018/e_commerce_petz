@@ -218,7 +218,6 @@ getOrderById(parseInt(req.params.id))
 
 * 🔄 Integração com banco real (MongoDB / PostgreSQL)
 * 🧪 Testes com CI/CD (GitHub Actions)
-* 📊 Testes de performance (k6)
 * 🧠 Validação de schema com Zod
 * 🔐 Refresh Token / OAuth2
 
